@@ -1,0 +1,57 @@
+Permisos de ejecucion
+
+los permisos de ejecucucion es la parte en la que dividimos a todos los usuarios en 3 grupos
+
+propietario-owner : el creador del archivo o carpeta
+
+grupos-groups: un conjunto de usarios en especifico que son selecionados para ingresar en dicho grupo para poder tener el mismo permiso y accseso que se le asigne al grupo al que pertenece (me re enrolle explicando esto)
+
+otrros-others: todos los demas,personas externas,terceros o invitados que no pertenescan a ningun grupo
+
+
+LEER PERMISOS 
+
+[  ---|---|--- ]
+  p     g   o
+
+r = read 
+w = write
+x = execute o accexible
+
+cada "-" sera replazada por  una letra (r,w,x) y de acuerdo a la division en 3 partes indicara los permisos de las 3 entidades 
+
+
+chmod = comando para editar permisos
+chgrp = comado crear u editar grupos
+useradd = crear usuarios
+usergroup = create a group
+
+IDENTIFICADORES
+u = propietario
+g = gfrupo
+0 = otros
+
+entonces:
+"chmod" + "identificador" + letra referencial a los permiso
+ chmod                   u+wr = da permisos al usuario para escribir y leer
+
+---permiso sticky--
+
+hace alucion que todo permiso de cualquier archivo le dara mas prioridad a los permisos de su carpeta ´padre,es decir que hara le da mas importancia a los permisos en la carpeta en la que se encuentre
+
+para evitar esto se tiene que aplicar 
+
+chmod -t "name de la carpeta"
+
+
+CHSTTR Y LSATRR
+
+chattr = cambia los atributos asignados
+
+lsatrr = lista los atributos
+
+cabe recalcar que estos 2 comandos son una suma de
+
+ls + attr
+ch + attr
+

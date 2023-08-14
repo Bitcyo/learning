@@ -1,0 +1,19 @@
+Modelo OSI
+
+(open system interconection) el modelo OSI es la descripcion del proceso en el que se envia la informacion desde nuestro dispositivo a otro.
+se segmenta en 7 capas
+
+Fisica: los datos se envian a atravez de medio fisicos,como cables ... creo que solo por cables se puede...la fibra optica es un ejemplo
+
+Capa de Enlace de Datos: esta capa se encarga de la tranferencia segura de datos entre dispositivos en nuestra misma red
+
+Red: en esta capa se ejecuta el envio de datos afuera de nuestra red,en la que se emplea identificadores comoo la direccion IP como medio de identificacion
+
+Transporte: la capa de transporte se encarga de hacer llegar de forma corecta y segura a su destinatario
+
+Session: la capa de session basicamente se encarga de mantener conecccion entre los dispositivos 
+
+Presentacion: esta capa maneja las representaciones que dan los datos ,encriptando ,codificacando informacion y viceverza
+
+Aplicacion: la informacion ah llegado a su destino y necesita aplicaciones para que sea vista por el usuario(navegadore web,correos electronicos,entre otros
+)

@@ -1,0 +1,37 @@
+COMANDOS LINUX
+
+Los comandos linux son parte de las terminales de toda las distribuciones linux que a deiferencia de windows nos permite navegar e interactuar de manera mas rapida y eficaz en la terminal en lugar de el sistema de interfaz de windows.
+
+que si, que windows tambien tiene una terminal y linux un sistema de interfaz pero hay que ser wbns para usar la temrinal de windows y el interfaz de linux a nivel de desarrollador,claro puedes usar cada sistema operativo como mas te sientas comodoq que lo importante es que te sepas mover en tus entornos de trabajo
+
+ls: te dice que archivos y directorios se encuentan en la carpeta que te encuentras actualmente o si quieres ver lo que hay dentro de un carpeta estando en otra puedes usar ls seguido de la ruta absoluta
+
+ls -l : lo mismo que el ls pero te muestra los permisos avanzados de cada carpeta 
+
+cd : esto te permite entrar en el directorio que quieras siempre y cuando exista y tengas los permisos para hacerlo y con ".." retrocedes un directorio,que quieres retrocedes 2 directorios?lo pones 2 veces junto "/" despues de cada 2 puntitos y asi sucesivamente hasta que retocedas el numero que de directorios que se te cante
+
+pwd: te muestra la ruta en la que estas ubicado
+
+echo: echo lo que hace es mostrar el valor de una variable o la ruta donde se encuentra dicha variable,crea un texto
+
+sudo su: con sudo puedes elevar tus permisos de usario en el entorno en el que te encuentras lo que te desbloquea acciones que solo el usario root deberia de hacer como instalar o eliminar ciertas cosas del dispositivo
+
+touch : creas un archivo
+
+mkadir : creas un directorio
+
+">" : redirector ,creas algo y este funciona como una flechita (sobre escribe en caso de que haya contenido)
+
+">>" lo mismo pero no sobrescribe
+
+"rm" : borra archivos
+
+passwd : cambiar o a agregar contraseñas en caso de que no tenga
+
+useradd: agrega  un usuario
+
+groupadd: agrega grupo 
+
+wich : nos muertra la ruta absoluta del archivo que le asigemos 
+
+-v : nos muestra de manera progreciva los resultados que vaya obtiendo mientras se ejecuta un programa 

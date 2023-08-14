@@ -1,0 +1,22 @@
+ Sticky bit
+
+el sticky bit es un atributo que solo se le da a los directorios,una especia de permisos especiales y adicionales a los permisos de escritura ,lectura y ejecutabilidad
+
+estos atributos se pueden ver atravez del comando lsattr
+
+y con chattr podemos agregar atributos con el "+" y quitar atributos con el "-"
+ entre los aributos tenemos a
+
+a: que no podemos hacer nada mas que agregar datos al archivo
+
+i: de immutable ,osea que no podemos ni un carajo con al archivo hasta que le quitemos el atributo con un chattr -i
+
+u: de undeleteable ,osea que podemos modficarlo a nuestro gusto pero no podemos hacerle delate ,"borrar" para los de poco ingles
+
+t: este aplica un sticky bit que evita que el directorio pueda ser eliminado por cualquier usario incluyendo al root hasta que este se quite el atributo
+
+entre otros atributos mas que me encantaria mencionar pero...no quiero,cabe recalcar estos atributos de chattr son muy importantes en el funcionamiento del sistema y para evitar que la kgues normalmente se necesitan de priveligios como la del usuario root,asi que recuerda usar con responsabilidad estos atritbutos
+
+bye
+
+

@@ -1,0 +1,7 @@
+Protocolos de red (TCP/UDP)
+
+los protocolos de red son la manera en la que los datos y la informacion va a transitar atravez de la red,osea que determina que proceso va a hacer para intercambiar data mi bro
+
+TCP: (trasnfer control protocol) este protocolo se enfoca mas en los procesos de conexion y transferencia de datos,haciendola masconfiable para intercambiar inormacion
+
+UPD: (user datagram protocol) este protocolo no es recomendable para las conexiones ya que debido a su simplecidad de ejuccionm al compartir datos no se enfoca en la informacion llegue integra si no que se confirme la llegada.

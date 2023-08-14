@@ -1,0 +1,12 @@
+direcciones IP (IPV4/IPV6)
+
+Direcciones ipv4 estan conformados por 32 bits que inicia en 000.000.000 al 255.255.255.255 (teniendo como resultado 4 294 967 296
+ posibles combinaciones,osea que cada combinacion resultaria en una direccion IP),es decir que se parten en 4, divididos por un punto,cada division se le denomina octetos.
+
+Direcciones ipv6 ,a diferencia de ipv4 ,ipv6 .ipv6 tiene un 6 en lugar de un 4...Ipv6 cubre la demanda de direcciones ip ,yan que las 4294967296 direcciones ip que proporciona ipv4 no son suficientesa. ipv4 usa unn formato de binarios (unos y ceros) e ipv6 usa un formato exadecimal
+
+EXAMPLE
+
+IPV4: 11000000.10101000.00001010.00110111
+IPV6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+

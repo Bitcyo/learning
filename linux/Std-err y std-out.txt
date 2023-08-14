@@ -1,0 +1,27 @@
+Std-err y std-out
+
+";" : te permite utilizar multiples comandos a al vez en una misma linea de comandos sin importarles sin los comandos anteriores se ejecutan correctamente
+"&&" : tambien te permite utilizar multiples linea de comandos pero este se pone quisquilloso si el comando anterior no se ejecuta y detiene la ejucucucion de los demas comandos
+
+"||": este le da igual todo asi que solo ejecuta el primer comando que se ejecute correctamente,asi que si el primer comando no funciona bien procede a intentar con el siguiente hasta que se ejecute correctamente,que hay mas comandos por ejecutar?ps te jodes con que uno funcione ya da por sentado que su trabajo a terminado
+
+----------------------------------------------------------------------------------------------------------------------------
+
+2 = errores
+
+> = una flechita que lleva lleva un elemento de un lugar a otro
+
+& = ejecuta un comando en 2do plano si se pone al final del comando dependiendo de que la consola en la que se a ejecutado siga operetiva
+
+& disown = tambien ejecuta en 2do plano pero le vale vrg la consola en la que se ejecuto
+
+1> : redireciona los output a una carpeta de tu preferencia
+
+2> : redireciona los errores a una carpeta de tu preferencia
+
+&> : redireciona las salidas y los errores a donde quieras
+
+exec "number_descriptor"<> "file_name" : crear y abre un archivo con capacidades de lectura y escritura 
+exec "number_descriptor"<>">&- : cierra archivos 
+
+

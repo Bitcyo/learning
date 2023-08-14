@@ -1,0 +1,10 @@
+Direcciones MAC
+
+la direcciones MAC es un identificador de 48 bits que se les asigna a tarjetas o dispositivos de  red, las direcciones MAc en teoria son unicos en cada dispositivo pero existen metodos con el cual manipular las direcciones
+
+MAC: 52:1A:8C:D4:2F:7E
+    |--OUI---|--NIC--|
+
+OUI: identificador unico organizacional(organization unic identifier) la primera parte en la qu edivide una direccion pertenece a la organizacion en la que le el dispositivo a sido creado(microsoft,aple,VMware,etc) es decir que va a todo dispositivo surgido en la misma organizacion va tener el mismo identifcador
+
+NIC: identificador de red asociado al dispositivo (network interfaces card) esta part de la direccion MAC es el identificador unico que se usa para identificarse en la red.

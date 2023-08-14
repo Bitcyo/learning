@@ -1,0 +1,18 @@
+Subneting
+
+tecnica emppleada para asignar direccionciones ip's adentro de nuestra red para que diversos dispositivos puedan conectarse a la red
+
+Netmask: (mascara de red) este valor de 32 bits se traduce una mascara que verifica que el dispositivo pernetenece a la misma red local para la transferencia de archivos e informacion en general,las mascara de red tienen 3 clases,clase A,B y C
+
+
+(el truquillo para identificar a cada uno es enfocarse en su primer octeto)
+
+class A: el octeto osila entre los rangos de 0-127,por ejemplplo (10.52.36.11),el 10 se encuentra entre el rango 0-127
+
+class B: el octeto osila ente 128-191,por ejemplo(172.24.67.2)
+
+class c: el octeto osila entre 192-233 por ejemplo(230.53.2.43)
+
+
+CIDRs: usado para una optima distribucion de direcciones iP de manera que son bien aprovechadas,este se representa con un prefijo colocado despues de un "/",como por ejemplo /24 
+
